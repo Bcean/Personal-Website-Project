@@ -1,2 +1,2 @@
 # Personal-Website-Project
-Personal website that i will (totally) finish.
+Personal website that I will (totally) finish.
