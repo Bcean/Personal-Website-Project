@@ -25,8 +25,8 @@ body {
 }
 
 #rightcontent{
-    height: 60vh;
-    width: 500px;
+    height: 70vh;
+    width: 40vh;
     margin-top: 25%;
     align-self: center;
     justify-self: center;
@@ -36,8 +36,8 @@ body {
 }
 #leftcontent{
     margin-top: 25%;
-    height: 60vhpx;
-    width: 500px;
+    height: 60vh;
+    width: 40vh;
     justify-self: center;
     align-self: center;
     grid-column: 1/2;
@@ -54,7 +54,7 @@ body {
     font-weight: bold;
 }
 #leftcontent h5{
-    font-size: 20px;
+    font-size: 15px;
     font-weight:200;
 }
 #imgcontainer{
@@ -167,5 +167,8 @@ body {
     justify-self: end;
     width: 100%;
     
+}
+#volumecontrolgroup span{
+    margin-left: 25px;
 }
 
