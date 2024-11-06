@@ -16,10 +16,11 @@ body {
 }
 
 .maingrid{
-    min-height: 100vh;
+    height: 100vh;
    display: grid;
    grid-template-columns: 50% 50%;
-   grid-template-rows: 80% 20%;
+   grid-template-rows: 80vh 1fr;
+   
 
 }
 
@@ -138,14 +139,17 @@ body {
     height: 10px;
 }
 
-#nowplaying{
-    grid-column:  2 / 3;
+#nowplayingdiv{
+    grid-column:  2 / 4;
     grid-row: 2 / 3;
+    justify-self: end;
+    align-self: end;
+}
+
+#nowplaying{
     font-size: 20px;
     font-weight:200;
-    justify-self: end;
-    align-self: baseline;
-    margin-right: 3%;
+    width:100%;
 }
 
 #colortextchange2{
@@ -155,15 +159,13 @@ body {
 }
 
 #volumecontrolgroup{
-    height: 35%;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: inline-flex;
-    align-items: end;
+    align-self: end;
+    justify-self: end;
     margin-left: 2%;
+    
+    width: 100%;
 }
 
-#volumecontrolgroup div{
-    margin-left: 3%;
-    margin-bottom: 1%;
-}
