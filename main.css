@@ -11,8 +11,8 @@ body {
   background: linear-gradient(180deg, rgba(64,62,107,1) 0%, rgba(90,50,80,1) 95%);
     color: white;
     overflow: hidden;
-   margin: 0px;
-   padding: 0px;
+   margin: 0vh;
+   padding: 0vh;
 }
 
 .maingrid{
