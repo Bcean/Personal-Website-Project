@@ -59,8 +59,8 @@ body {
 }
 #imgcontainer{
    
-    width: 400px;
-    height: 400px;
+    width: 48vh;
+    height: 48vh;
     background-color: white;
     border-radius: 10%;
     overflow: hidden;
@@ -72,15 +72,15 @@ body {
 }
 #progressbar{
     
-    width: 400px;
-    height: 10px;
+    width: 48vh;
+    height: 1vh;
     background-color: #7F7D7D;
     border-radius: 25px;
 }
 #progresscircle{
     
-    width: 25px;
-    height: 25px;
+    width: 3vh;
+    height: 3vh;
     background-color: white;
     border-radius: 100%;
 
@@ -90,41 +90,41 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 130px;
-    height: 10px;
+    width: 15vh;
+    height: 1vh;
     background-color: white;
     border-radius: 25px;
 }
 
 #buttons{
     
-    width: 400px;
-    height: 100px;
+    width: 48vh;
+    height: 12vh;
     display: flex;
     align-items: center;
    justify-content: center;
 }
 
 #playbutton{
-   width: 50px;
-   height: 50px;
-   margin-left: 50px;
-   margin-right: 50px;
+   width: 6vh;
+   height: 6vh;
+   margin-left: 6vh;
+   margin-right: 6vh;
    
 }
 
 
 
 #forwardcontainer {
-    width: 50px;
-   height: 50px;
+    width: 6vh;
+   height: 6vh;
    margin-left: 0px;
    margin-right: 0px;
 }
 
 #backbutton{
-    width: 50px;
-    height: 50px;
+    width: 6vh;
+    height: 6vh;
     margin-left: 0px;
    margin-right: 0px;
 
@@ -135,8 +135,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px;
-    height: 10px;
+    width: 48vh;
+    height: 1vh;
 }
 
 #nowplayingdiv{
@@ -150,7 +150,7 @@ body {
     font-size: 20px;
     font-weight:200;
     width:100%;
-    margin-right: 25px;
+    margin-right: 3vh;
 }
 
 #colortextchange2{
@@ -169,6 +169,6 @@ body {
     
 }
 #volumecontrolgroup span{
-    margin-left: 25px;
+    margin-left: 3vh;
 }
 
