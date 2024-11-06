@@ -49,12 +49,12 @@ body {
 }
 
 #leftcontent h1{
-    margin: 0px;
-    font-size: 11vh;
+    margin: 0;
+    font-size: 6vw;
     font-weight: bold;
 }
 #leftcontent h5{
-    font-size: 2vh;
+    font-size: 1vw;
     font-weight:200;
 }
 #imgcontainer{
