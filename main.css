@@ -1,3 +1,169 @@
+/*<uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 100 to 900*/
+
+
 body {
-    color: red;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+  background: rgb(64,62,107);
+  background: linear-gradient(180deg, rgba(64,62,107,1) 0%, rgba(90,50,80,1) 95%);
+    color: white;
+    overflow: hidden;
+   margin: 0px;
+   padding: 0px;
+}
+
+.maingrid{
+    min-height: 100vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 80% 20%;
+
+}
+
+#rightcontent{
+    height: 700px;
+    width: 500px;
+    margin-top: 25%;
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    
+}
+#leftcontent{
+    margin-top: 25%;
+    height: 700px;
+    width: 500px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+#colortextchange{
+    color: #7189BB;
+}
+
+#leftcontent h1{
+    margin: 0px;
+    font-size: 90px;
+    font-weight: bold;
+}
+#leftcontent h5{
+    font-size: 20px;
+    font-weight:200;
+}
+#imgcontainer{
+   
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+#imgcontainer img{
+    width: 100%;
+    height: 100%;
+}
+#progressbar{
+    
+    width: 400px;
+    height: 10px;
+    background-color: #7F7D7D;
+    border-radius: 25px;
+}
+#progresscircle{
+    
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 100%;
+
+}
+#progress2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 130px;
+    height: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#buttons{
+    
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+#playbutton{
+   width: 50px;
+   height: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   
+}
+
+
+
+#forwardcontainer {
+    width: 50px;
+   height: 50px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+#backbutton{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+   margin-right: 0px;
+
+}
+
+#containertime{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 10px;
+}
+
+#nowplaying{
+    grid-column:  2 / 3;
+    grid-row: 2 / 3;
+    font-size: 20px;
+    font-weight:200;
+    justify-self: end;
+    align-self: baseline;
+    margin-right: 3%;
+}
+
+#colortextchange2{
+    color: #7189BB;
+    font-weight: 400;
+    background: none;
+}
+
+#volumecontrolgroup{
+    height: 35%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: inline-flex;
+    align-items: end;
+    margin-left: 2%;
+}
+
+#volumecontrolgroup div{
+    margin-left: 3%;
+    margin-bottom: 1%;
 }
