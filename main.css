@@ -37,11 +37,12 @@ body {
 #leftcontent{
     margin-top: 25%;
     height: 60vh;
-    width: 40vh;
+    width: 80vh;
     justify-self: center;
     align-self: center;
     grid-column: 1/2;
     grid-row: 1/1;
+    border: red solid;
 }
 
 #colortextchange{
@@ -49,12 +50,14 @@ body {
 }
 
 #leftcontent h1{
+    border:red solid;
     margin: 0;
-    font-size: 6vw;
+    font-size: 11vh;
     font-weight: bold;
 }
 #leftcontent h5{
-    font-size: 1vw;
+    border:red solid;
+    font-size: 3vh;
     font-weight:200;
 }
 #imgcontainer{
