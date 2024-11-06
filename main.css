@@ -50,11 +50,11 @@ body {
 
 #leftcontent h1{
     margin: 0px;
-    font-size: 90px;
+    font-size: 11vh;
     font-weight: bold;
 }
 #leftcontent h5{
-    font-size: 15px;
+    font-size: 2vh;
     font-weight:200;
 }
 #imgcontainer{
