@@ -1,6 +1,4 @@
 
-
-
 body {
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -131,7 +129,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1350px) {
     body {
         overflow-y: visible;
         display: grid;
