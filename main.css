@@ -121,6 +121,15 @@ body {
     color: #7189BB;
 }
 
+@media (min-width: 1920px) {
+    #leftcontent h1{
+        font-size: 7rem;
+    }
+    
+    #leftcontent h5{
+        font-size: 4rem;
+    }
+}
 
 @media (max-width: 1024px) {
     body {
