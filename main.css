@@ -69,12 +69,25 @@ body {
     height: 100%;
 }
 
-#progressbar svg{
-    width: 35vh;
-    height: 5vh;
+#progressslider{
+    width: 100%;
+    height: 8px;
+    appearance: none;
+    background: linear-gradient(90deg, grey 30%, grey 30%);
+    border-radius: 5px;
+    
+}
+
+#progressslider::-webkit-slider-thumb{
+    appearance: none;
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
 #containertime{
+    margin-top: 1vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,9 +108,26 @@ body {
     align-self: end;
     margin-left: 1vh;
 }
+#leftfootercontent span{
+    float:left;
+}
 
-#volumecontrol{
-    margin-bottom: 1vh;
+#volumeslider{
+    width: 20%;
+    height: 6px;
+    margin-left: 0.25px;
+    margin-bottom: 2vh;
+    appearance: none;
+    background: linear-gradient(90deg, grey 30%, grey 30%);
+    border-radius: 5px;
+}
+
+#volumeslider::-webkit-slider-thumb{
+        appearance: none;
+        background: white;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
 }
 
 #rightfootercontent{

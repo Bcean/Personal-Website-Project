@@ -1,0 +1,44 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    background: rgb(64,62,107);
+    background: repeating-linear-gradient(180deg, rgba(64,62,107,1) 0%, rgba(90,50,80,1) 100%);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 75% auto;
+    border: red solid;
+    grid-template-areas: "topsection"
+    "maincontent"
+    "bottomsection";
+}
+
+#topsection{
+    grid-area: topsection;
+}
+
+#midcontent{
+    grid-area: maincontent;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: fi;
+    border: red solid;
+    
+}
+
+#maincontainer{
+   
+}
+
+#bottomsection{
+    grid-area: bottomsection;
+}
