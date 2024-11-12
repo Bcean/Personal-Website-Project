@@ -2,6 +2,13 @@ let slider = document.getElementById("progressslider");
 const audio = document.getElementById("mainmusic");
 let currenttimeOutput = document.getElementById("CurrentTimeTag");
 let volumesliderInput = document.getElementById("volumeslider");
+let pauseButton = document.getElementById("pausebutton");
+let playButton = document.getElementById("playbutton");
+let backButton = document.getElementById("backbutton");
+//remove pausebutton
+pauseButton.style.display = "none";
+
+
 
 //set default volume
 const defaultVolume = 0.2;
@@ -17,8 +24,23 @@ function setVolumeslider(volumeslider){
     volumeslider.style.background = `linear-gradient(90deg, white ${currentVolume}%, grey ${currentVolume}%)`;
 }
 
+//makepausebutton stopmusic
 
+playButton.addEventListener("click",function(){
+    audio.play();
+    playButton.style.display = "none";
+    pauseButton.style.display = "block";
+})
 
+pauseButton.addEventListener("click",function(){
+    audio.pause();
+    playButton.style.display = "block";
+    pauseButton.style.display = "none";
+})
+//backbutton restarts music
+backButton.addEventListener("click", function(){
+    audio.currentTime = 0;
+})
 
 function formatTime(seconds) {
     let minutes = Math.floor(seconds / 60); // Get the minutes
