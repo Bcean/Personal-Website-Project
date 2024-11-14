@@ -15,7 +15,6 @@ body {
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 5% 75% auto;
-    border: red solid;
     grid-template-areas: "topsection"
     "maincontent"
     "bottomsection";
@@ -27,6 +26,10 @@ body {
     margin-right: 3%;
 }
 
+#topsection mark{
+    background: none;
+    color: #7189BB;
+}
 #midcontent{
     grid-area: maincontent;
     align-self: center;
@@ -39,12 +42,34 @@ body {
     align-items: center;
 }
 
+#topmidcontent mark{
+    background: none;
+    color: #7189BB;
+}
+
 #topmainimg{
+    display: flex;
     width: 20vh;
     height: 20vh;
     background:white;
     border-radius: 10%;
-    
+    justify-content: flex-end;
+}
+
+#topmainimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+
+   
+}
+
+#topmainimg svg{
+    align-self: end;
+    position: absolute;
+    margin-bottom: 0.4%;
+    margin-right: 0.4%;
 }
 
 hr {
@@ -65,13 +90,22 @@ hr {
     background: white;
     margin-left: 5%;
 }
+
+.trackimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15%;
+}
 .tracksection{
     display: flex;
     align-items: center;
-    margin-top:5%;
-    
+    padding: 5%;
 }
-
+.tracksection:hover{
+    filter: brightness(0.5);
+    background: rgba(0, 0, 0, 0.3)
+}
 .tracktext{
     width: 80%;
     height: 100%;
@@ -84,27 +118,38 @@ hr {
     margin-top: 0;
 }
 
+.tracktext mark{
+    background: none;
+    font-weight: 200;
+    color: white;
+}
 #botspacecontainer{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #bottomsection{
     grid-area: bottomsection;
-    border: red solid;
     background: rgba(250, 123, 123, 0.3);
     width: 100%;
     height: 100%;
     
 }
 
+
 #leftbottomcontent{
     display: flex;
     align-items: center;
+    width: 15%;
 }
 
+#leftbottomcontent mark{
+    background: none;
+    color: white;
+    font-weight: 100;
+}
 #leftbottomimg{
     width: 10vh;
     height: 10vh;
@@ -113,8 +158,28 @@ hr {
     margin-right: 10%;
 }
 
-#progressslider{
+#leftbottomimg img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%; 
+}
+#bottomaudiocontrols{
+    width: 50%;
+}
+
+
+#progresscontainer{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: fit-content;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+#progressslider{
+    width: 20vw;
     height: 8px;
     appearance: none;
     background: linear-gradient(90deg, grey 30%, grey 30%);
@@ -133,9 +198,9 @@ hr {
 #buttons{
     display: flex;
     margin-top: 3vh;
+    justify-self: center;
+    width: 10vw;
     justify-content: space-evenly;
-   
-    
 }
 
 #volumecontrolcontainer{

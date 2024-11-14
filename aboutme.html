@@ -9,42 +9,55 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
+    <audio src="ImportantMedia/aboutmusic.mp3" id="mainmusic"></audio>
     <section id="topsection">
-        <h5>Now playing: About me by Britney Choimah</h5>
+        <h5><mark>Now playing:</mark> About me by Britney Choimah</h5>
     </section>
 
    <section id="midcontent">
         <div id="topmidcontent">
-            <div id="topmainimg"></div>
+            <div id="topmainimg">
+                <img src="ImportantMedia/about1.jpg">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="10" fill="white"/>
+                    <path d="M7.1111 13.8142C7.11111 14.6343 8.03938 15.1101 8.70513 14.6312L13.9372 10.8679C14.4922 10.4687 14.4962 9.64421 13.9452 9.23964L8.71305 5.39834C8.04837 4.91035 7.11109 5.38498 7.11109 6.20956L7.1111 13.8142Z" fill="#3E325A"/>
+                    </svg>                                      
+            </div>
             <div id="mainimgtext">
                 <h5>Public Playlist</h5>
-                <h1>About Me <br> 3 Tracks</h1>
+                <h1><mark>About</mark> Me <br> 3 Tracks</h1>
             </div> 
         </div>
         <hr>
         <div id="trackgrid">
             <div class="tracksection">
                 <h1>1</h1>
-                <div class="trackimg"></div>
+                <div class="trackimg">
+                    <img src="ImportantMedia/track1.jpg">
+                </div>
                 <div class="tracktext">
-                    <h5>Birthplace/HomeTown</h5>
-                    <h6>4:20</h6>
+                    <h5>Birthplace/HomeTown<br><mark>Britney Choimah</mark></h5>
+                    <h6>4:16</h6>
                 </div>
             </div>
             <div class="tracksection">
                 <h1>2</h1>
-                <div class="trackimg"></div>
+                <div class="trackimg">
+                    <img src="ImportantMedia/track2.jpg">
+                </div>
                 <div class="tracktext">
-                    <h5>Hobbies</h5>
-                    <h6>4:20</h6>
+                    <h5>Hobbies<br><mark>Britney Choimah</mark></h5>
+                    <h6>4:02</h6>
                 </div>
             </div>
             <div class="tracksection">
                 <h1>3</h1>
-                <div class="trackimg"></div>
+                <div class="trackimg">
+                  <img src="ImportantMedia/track3.jpg">  
+                </div>
                 <div class="tracktext">
-                    <h5>Trips</h5>
-                    <h6>4:20</h6>
+                    <h5>Mst<br><mark>Britney Choimah</mark></h5>
+                    <h6>3:07</h6>
                 </div>
             </div>
         </div>
@@ -53,10 +66,13 @@
    <section id="bottomsection">
     <div id="botspacecontainer">
         <div id="leftbottomcontent">
-            <div id="leftbottomimg"></div>
-            <h5>these walls <br> Kendrick lamar</h5>
+            <div id="leftbottomimg">
+                <img src="ImportantMedia/aboutmusiccover.jpg">
+            </div>
+            <h5>Sunny Days<br><mark>Wave to Earth</mark></h5>
         </div>
         <div id="bottomaudiocontrols">
+            
             <div id="buttons">
                 <a href="index.html">
                     <svg id="backbutton" width="40" height="43" viewBox="0 0 40 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,9 +96,13 @@
                     </svg> 
                 </a>                       
             </div>
-            <div id="progressbar">
-                <input type="range" id="progressslider" min="0" max="250" value="0">
-            </div>  
+            <div id="progresscontainer">
+                <h5 id="CurrentTimeTag">0:00</h5>
+                <div id="progressbar">
+                    <input type="range" id="progressslider" min="0" max="250" value="0">
+                </div> 
+                <h5>4:09</h5>
+            </div> 
         </div>
 
         <div id="volumecontrolcontainer">
@@ -92,6 +112,7 @@
             <input type="range" id="volumeslider" min="0" max="100" value="20">
         </div>
     </div>
-   </section> 
+   </section>
+   <script src="main.js"></script> 
 </body>
 </html>
