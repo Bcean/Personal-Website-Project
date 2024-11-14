@@ -173,8 +173,6 @@ hr {
     display: flex;
     align-items: center;
     justify-self: center;
-    width: fit-content;
-    height: fit-content;
     justify-content: space-evenly;
 }
 
@@ -184,8 +182,10 @@ hr {
     appearance: none;
     background: linear-gradient(90deg, grey 30%, grey 30%);
     border-radius: 5px;
-    
+    transform-origin: center;
+   
 }
+
 
 #progressslider::-webkit-slider-thumb{
     appearance: none;
