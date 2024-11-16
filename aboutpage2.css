@@ -32,44 +32,19 @@ body {
 }
 #midcontent{
     grid-area: maincontent;
-    align-self: center;
     justify-self: center;
-    width: 50%;
-}
-
-#topmidcontent{
-    display: flex;
-    align-items: center;
-}
-
-#topmidcontent mark{
-    background: none;
-    color: #7189BB;
-}
-
-#topmainimg{
-    display: flex;
-    width: 20vh;
-    height: 20vh;
-    background:white;
-    border-radius: 10%;
-    justify-content: flex-end;
-}
-
-#topmainimg img{
+    align-self: center;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 10%;
-
-   
+    align-content: center;
+    
 }
 
-#topmainimg svg{
-    align-self: end;
-    position: absolute;
-    margin-bottom: 0.4%;
-    margin-right: 0.4%;
+#midcontent h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3%;
 }
 
 hr {
@@ -79,57 +54,60 @@ hr {
     background-color: white;
 }
 
-#mainimgtext{
-    margin-left: 2%;
+#midcontent mark{
+    background: none;
+    color: #7189BB;
 }
-#trackgrid a{
-    text-decoration: none;
-    color: white;
-}
-.trackimg{
-    width: 8vh;
-    height: 8vh;
-    border-radius: 15%;
-    background: white;
-    margin-left: 5%;
+#midmaindisplay{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
 
-.trackimg img{
+#displayitem{
+   width: min-content;
+   text-align: center;
+   justify-items: center;
+   height: fit-content; 
+}
+
+#displayitem h5{
+    margin-top: 1%;
+    font-weight: 500;
+    justify-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#displayitem h6{
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2%;
+}
+#displayimg{
+    display: flex;
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10%;
+    justify-content: flex-end;
+}
+
+
+#displayimg img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15%;
-}
-.tracksection{
-    display: flex;
-    align-items: center;
-    padding: 5%;
-}
-.tracksection:hover{
-    filter: brightness(0.5);
-    background: rgba(0, 0, 0, 0.3)
-}
-.tracktext{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-}
-
-.tracktext h5, h6{
-    margin-top: 0;
-}
-
-.tracktext mark{
-    background: none;
-    font-weight: 200;
-    color: white;
+    border-radius: 10%;
 }
 
 #bottomsection{
     grid-area: bottomsection;
-    background: rgba(250, 123, 123, 0.3);
+    background: rgba(242, 151, 71, 0.3);
     width: 100%;
     display: flex;
     align-items: center;
@@ -231,6 +209,4 @@ hr {
         height: 8px;
         border-radius: 50%;
 }
-
-
 
