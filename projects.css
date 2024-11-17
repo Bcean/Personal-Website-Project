@@ -66,11 +66,12 @@ body {
    width: min-content;
    text-align: center;
    justify-items: center;
-   height: fit-content; 
+   height: 50vh; 
 }
 
 #displayitem h6{
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 0.65rem;
 }
 #displayimg{
     display: flex;
