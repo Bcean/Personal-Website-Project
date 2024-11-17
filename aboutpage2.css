@@ -149,7 +149,10 @@ hr {
     padding: 0;
 }
 
-
+#buttons svg{
+    flex-shrink: 1;
+    max-width: 100%;
+}
 #progresscontainer{
     display: flex;
     align-items: center;
@@ -209,4 +212,64 @@ hr {
         height: 8px;
         border-radius: 50%;
 }
+
+@media (min-width: 1920px){
+    #displayitem h6{
+        font-size: 1rem;
+    }
+
+    #displayitem h5{
+        font-size: 2rem;
+    }
+
+    #topsection{
+        font-size: 2rem;
+    }
+
+    #midcontent h1{
+        font-size: 3rem;
+    }
+
+    #leftbottomcontent h5{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #displayitem h6{
+        font-size: 1rem;
+    }
+    #displayimg{
+        width: 30vh;
+        height: 30vh;
+    }
+    #displayitem h6{
+        font-size: 1rem;
+    }
+
+    #displayitem h5{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #displayitem h6{
+        font-size: 1rem;
+    }
+    #displayimg{
+        width: 20vh;
+        height: 20vh;
+    }
+    #displayitem h6{
+        font-size: 1rem;
+    }
+
+    #displayitem h5{
+        font-size: 2rem;
+    }
+
+}
+
+
 

@@ -202,9 +202,14 @@ hr {
     display: flex;
     margin-top: 3vh;
     justify-self: center;
-    width: 10vw;
+    width: 30%;
     justify-content: space-evenly;
   
+}
+
+#buttons svg{
+    flex-shrink: 1;
+    max-width: 100%;
 }
 
 #volumecontrolcontainer{
@@ -212,7 +217,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: end;
-
+    width: auto;
 }
 
 
@@ -233,4 +238,59 @@ hr {
 }
 
 
+@media (min-width: 1920px) {
+    #topsection{
+        font-size: 2rem;
+    }
+    #mainimgtext h1{
+        font-size: 3rem;
+    }
+    
+    #mainimgtext h5{
+        font-size: 2rem;
+    }
 
+    .tracktext h5{
+        font-size: 1.5rem;
+
+    }
+
+    .tracktext h6{
+        font-size: 1.5rem;
+    }
+
+    #leftbottomcontent h5{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #midcontent{
+        width: 75%;
+    }
+
+    #leftbottomimg{
+        width: 8vh;
+        height: 8vh;
+    }
+    #leftbottomcontent h5{
+        font-size: 0.7rem;
+    }
+    #volumeslider{
+        width: 50%;
+    }
+
+    #buttons{
+        width: 60%;
+    }
+ }
+
+ @media (max-width:600px){
+    #leftbottomimg{
+        width: 5vh;
+        height: 5vh;
+    }
+    #volumeslider{
+        width: 35%;
+    }
+ }
