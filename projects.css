@@ -136,7 +136,10 @@ body {
     width: fit-content;
     padding: 0;
 }
-
+#buttons svg{
+    flex-shrink: 1;
+    max-width: 100%;
+}
 
 #progresscontainer{
     display: flex;
