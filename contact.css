@@ -205,34 +205,12 @@ body {
 
 
 
-@media (min-width: 1920px){
-    #displayitem h6{
-        font-size: 1rem;
+@media (min-width: 1700px){
+    #midmaindisplay{
+        height: 80%;
     }
-
-    #displayitem h5{
+    #midcontent h5{
         font-size: 2rem;
-    }
-
-    #topsection{
-        font-size: 2rem;
-    }
-
-    #midcontent h1{
-        font-size: 3rem;
-    }
-
-    #leftbottomcontent h5{
-        font-size: 2rem;
-    }
-
-    #midcontent{
-        overflow: none;
-    }
-
-    #bottomsection{
-        height: 100%;
-        width: 100%;
     }
 }
 @media (max-width:1600px){
@@ -265,6 +243,9 @@ body {
     #bottomsection{
         height: 100%;
         width: 100%;
+    }
+    #midmaindisplay{
+        height: 80%;
     }
 }
 

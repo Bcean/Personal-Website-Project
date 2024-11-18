@@ -156,13 +156,9 @@ body {
     color: #7189BB;
 }
 
-@media (min-width: 1920px) {
-    #leftcontent h1{
-        font-size: 7rem;
-    }
-    
+@media (min-width:1700px){
     #leftcontent h5{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 }
 
