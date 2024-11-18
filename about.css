@@ -311,5 +311,16 @@ hr {
     grid-template-rows: 5% 80% auto;
    }
     
+   #bottomsection{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(250, 123, 123, 0.3);
+    height: 15%;
+    width: 100%;
+    
+    } 
+
+    
     
  }
