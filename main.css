@@ -237,3 +237,9 @@ body {
         text-align: right;
     }
  }
+
+ @media (max-width: 500px){
+    #leftcontent h5{
+        font-size: 0.52rem;
+    }
+ }

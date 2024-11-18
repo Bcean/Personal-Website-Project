@@ -290,7 +290,26 @@ hr {
         width: 5vh;
         height: 5vh;
     }
-    #volumeslider{
-        width: 35%;
+    #volumecontrolcontainer{
+        display: none;
     }
+    #progresscontainer{
+        display: none;
+    }
+
+    #buttons{
+        width: 60%;
+        
+        height: fit-content;
+    }
+    #leftbottomcontent{
+        
+        height: 10vh;
+    }
+   body{
+
+    grid-template-rows: 5% 80% auto;
+   }
+    
+    
  }

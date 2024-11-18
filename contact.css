@@ -309,3 +309,60 @@ body {
     }
     
 }
+
+@media (max-width:600px){
+    #leftbottomimg{
+        width: 5vh;
+        height: 5vh;
+    }
+    #volumecontrolcontainer{
+        display: none;
+    }
+    #progresscontainer{
+        display: none;
+    }
+
+    #buttons{
+        width: 60%;
+        
+        height: fit-content;
+    }
+    #leftbottomcontent{
+        
+        height: 10vh;
+    }
+   body{
+
+    grid-template-rows: 5% 80% auto;
+   }
+   
+   #displayitem h5{
+    font-size: 1rem;
+   }
+   
+   #displayitem h6{
+    font-size: 0.7rem;
+   }
+   
+   #bottomsection{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(250, 123, 123, 0.3);
+    height: 15%;
+    width: 100%;
+    
+    }  
+    
+    #midmaindisplay{
+        display: flex;
+        flex-direction: column;
+        gap: 8rem;
+        
+        
+    }
+    #midcontent{
+        overflow: scroll; /*makes it where you scroll and overlay stays and doesnt cover up*/
+        margin-bottom: 5%;
+    }
+ }
