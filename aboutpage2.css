@@ -348,6 +348,7 @@ hr {
 }
 
 @media (max-width:600px){
+   
     #leftbottomimg{
         width: 5vh;
         height: 5vh;
@@ -402,6 +403,7 @@ hr {
         overflow: scroll; /*makes it where you scroll and overlay stays and doesnt cover up*/
         margin-bottom: 5%;
     }
+    
  }
 
 
